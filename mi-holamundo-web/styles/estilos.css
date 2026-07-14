@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #07152f, #162d5c);
+  color: white;
+  text-align: center;
+}
+
+.contenedor {
+  width: min(90%, 700px);
+  padding: 50px 30px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.etiqueta {
+  letter-spacing: 3px;
+  font-size: 0.8rem;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  margin: 20px 0;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+button {
+  margin-top: 20px;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
